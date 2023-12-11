@@ -1,4 +1,12 @@
-# zafin test
+# Zafin test
+
+- [Zafin test](#zafin-test)
+  - [libraries used](#libraries-used)
+  - [logging](#logging)
+  - [parallel tests](#parallel-tests)
+  - [reporting](#reporting)
+  - [test execution](#test-execution)
+  - [target folder](#target-folder)
 
 ## libraries used
 - jdk 17
@@ -23,5 +31,8 @@ log42j xml file is located at `src/test/resources/log4j2.xml`
 * allure properties file located at `src/test/resources/allure.properties`
 
 ## test execution
-
 `clean test install allure:report`
+
+## target folder
+**target folder is pushed to repo only to share the test results. **
+usuaully target folder is never pushed to the repo. 
