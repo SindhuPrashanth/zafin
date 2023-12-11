@@ -1,0 +1,293 @@
+2023-12-11 01:10:50.471 [TestNG-test=Happy path Flow-1] DEBUG org.example.SauceHome - 7
+2023-12-11 01:10:50.703 [TestNG-test=Happy path Flow-1] DEBUG org.example.SauceHome - 2
+2023-12-11 01:10:50.917 [TestNG-test=Happy path Flow-1] DEBUG org.example.SauceHome - url:https://www.saucedemo.com/inventory.html
+2023-12-11 01:10:51.117 [TestNG-test=Happy path Flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 01:10:51.226 [TestNG-test=Happy path Flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 01:10:51.320 [TestNG-test=Happy path Flow-1] DEBUG org.example.SauceHome - no of items in cart:2
+2023-12-11 01:11:52.087 [TestNG-test=cart sanity test flow-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 01:11:58.048 [TestNG-test=cart sanity test flow-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 01:11:58.194 [TestNG-test=cart sanity test flow-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 01:11:58.222 [TestNG-test=cart sanity test flow-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 01:12:10.971 [TestNG-test=cart sanity test flow-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (81a4cc9d450e25555c65966bfe0c093c)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 01:12:11.072 [TestNG-test=cart sanity test flow-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 01:12:11.072 [TestNG-test=cart sanity test flow-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 01:12:11.072 [TestNG-test=cart sanity test flow-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 01:12:11.072 [TestNG-test=cart sanity test flow-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 01:27:05.223 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 7
+2023-12-11 01:27:05.474 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 2
+2023-12-11 01:27:05.809 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - url:https://www.saucedemo.com/inventory.html
+2023-12-11 01:27:06.081 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 01:27:06.219 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 01:27:06.339 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - no of items in cart:2
+2023-12-11 01:28:10.814 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 01:28:16.685 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 01:28:16.830 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 01:28:16.859 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 01:28:29.584 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (c777142c7fa88697c09b04f532dfa9d2)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 01:28:29.672 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 01:28:29.672 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 01:28:29.672 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 01:28:29.673 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 01:33:44.533 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 7
+2023-12-11 01:33:44.789 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 2
+2023-12-11 01:33:45.039 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - url:https://www.saucedemo.com/inventory.html
+2023-12-11 01:33:45.299 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 01:33:45.444 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 01:33:45.543 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - no of items in cart:2
+2023-12-11 01:34:47.944 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 01:34:53.789 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 01:34:53.932 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 01:34:53.961 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 01:34:56.681 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (b28bab0f1c04ad2d1b5479d3aabcc4d4)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 01:34:56.770 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 01:34:56.770 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 01:34:56.771 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 01:34:56.771 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 01:37:48.262 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 7
+2023-12-11 01:37:48.511 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 2
+2023-12-11 01:37:48.780 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - url:https://www.saucedemo.com/inventory.html
+2023-12-11 01:37:49.004 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 01:37:49.133 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 01:37:49.228 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - no of items in cart:2
+2023-12-11 01:38:52.356 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 01:38:58.335 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 01:38:58.484 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 01:38:58.515 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 01:39:01.268 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (ca4e27ce9a60bbf01d7cbca3f04f8de6)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 01:39:01.363 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 01:39:01.363 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 01:39:01.364 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 01:39:01.364 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 01:40:12.099 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 7
+2023-12-11 01:40:12.348 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 2
+2023-12-11 01:40:12.581 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - url:https://www.saucedemo.com/inventory.html
+2023-12-11 01:40:12.787 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 01:40:12.904 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 01:40:12.994 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - no of items in cart:2
+2023-12-11 01:41:15.253 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 01:41:21.106 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 01:41:21.244 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 01:41:21.273 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 01:41:24.008 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (9aae909fe873a22e72d4d1edf0911146)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 01:41:24.094 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 01:41:24.095 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 01:41:24.095 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 01:41:24.095 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 01:42:36.763 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 01:42:42.736 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 01:42:42.892 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 01:42:42.924 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 01:42:45.774 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (495cae64d2e2f27c3dbc808960c86d79)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 01:42:45.869 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 01:42:45.870 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 01:42:45.870 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 01:42:45.871 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 01:45:00.372 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 01:45:06.305 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 01:45:06.460 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 01:45:06.489 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 01:45:09.291 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (a8e9767b6b85d876040b3866b2a5f299)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 01:45:09.391 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 01:45:09.392 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 01:45:09.392 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 01:45:09.392 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 01:47:58.354 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 01:48:04.271 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 01:48:04.424 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 01:48:04.454 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 01:48:07.249 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (89d5f1e16cb1f91065005621bb075a71)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 01:48:07.340 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 01:48:07.340 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 01:48:07.340 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 01:48:07.340 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 01:50:55.710 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 01:51:01.639 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 01:51:01.788 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 01:51:01.817 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 01:51:04.575 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (52b7dadcbc0da6c82f417aac7c2713d0)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 01:51:04.665 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 01:51:04.665 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 01:51:04.665 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 01:51:04.666 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 01:52:31.698 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 01:52:37.604 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 01:52:37.750 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 01:52:37.779 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 01:52:40.491 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (ba824d8a44ea67e6e573d0704a69ce13)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 01:52:40.587 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 01:52:40.588 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 01:52:40.588 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 01:52:40.588 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 01:54:23.049 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 7
+2023-12-11 01:54:23.283 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 2
+2023-12-11 01:54:23.495 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - url:https://www.saucedemo.com/inventory.html
+2023-12-11 01:54:23.686 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 01:54:23.823 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 01:54:23.918 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - no of items in cart:2
+2023-12-11 01:55:25.785 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 01:55:31.582 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 01:55:31.722 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 01:55:31.751 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 01:55:34.444 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (659b1f76005739cdbc9405e3ed62a7a6)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 01:55:34.531 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 01:55:34.531 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 01:55:34.531 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 01:55:34.531 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 02:03:21.503 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 7
+2023-12-11 02:03:21.777 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 2
+2023-12-11 02:03:22.033 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - url:https://www.saucedemo.com/inventory.html
+2023-12-11 02:03:22.259 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 02:03:22.388 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 02:03:22.490 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - no of items in cart:2
+2023-12-11 02:03:41.580 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 02:03:47.475 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 02:03:47.622 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 02:03:47.652 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 02:03:50.421 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (84e8e384576af64c81fe5a036d3c503d)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 02:03:50.518 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 02:03:50.518 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 02:03:50.519 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 02:03:50.519 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 02:07:08.120 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 7
+2023-12-11 02:07:08.385 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 2
+2023-12-11 02:07:08.629 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - url:https://www.saucedemo.com/inventory.html
+2023-12-11 02:07:08.860 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 02:07:08.998 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 02:07:09.107 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - no of items in cart:2
+2023-12-11 02:08:14.514 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 02:08:20.444 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 02:08:20.591 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 02:08:20.622 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 02:08:23.382 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (fb801f1f18dd7d264c39cf5df2e740f9)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 02:08:23.487 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 02:08:23.487 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 02:08:23.488 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 02:08:23.488 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 02:15:08.965 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 7
+2023-12-11 02:15:09.229 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 2
+2023-12-11 02:15:09.471 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - url:https://www.saucedemo.com/inventory.html
+2023-12-11 02:15:09.696 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 02:15:09.822 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 02:15:09.918 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - no of items in cart:2
+2023-12-11 02:15:11.697 [main] DEBUG org.example.SauceLogin - 7
+2023-12-11 02:15:11.698 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+2023-12-11 02:15:11.698 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+2023-12-11 02:15:11.733 [main] DEBUG org.example.SauceLogin - 2
+2023-12-11 02:15:19.267 [TestNG-test=validate login using all usernames and password-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Sorry, this user has been locked out.
+2023-12-11 02:15:39.383 [main] DEBUG org.example.SauceLogin - 7
+2023-12-11 02:15:39.384 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+2023-12-11 02:15:39.384 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+2023-12-11 02:15:39.432 [main] DEBUG org.example.SauceLogin - 2
+2023-12-11 02:15:39.439 [TestNG-test=validate invalid username for login-1] DEBUG org.example.SauceLogin - Login credentials:
+UserName:userInvalid
+Password:secret_sauce
+2023-12-11 02:15:40.047 [TestNG-test=validate invalid username for login-1] DEBUG org.example.SauceLogin - no od divs:3
+2023-12-11 02:15:40.079 [TestNG-test=validate invalid username for login-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Username and password do not match any user in this service
+2023-12-11 02:15:46.059 [main] DEBUG org.example.SauceLogin - 7
+2023-12-11 02:15:46.059 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+2023-12-11 02:15:46.060 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+2023-12-11 02:15:46.112 [main] DEBUG org.example.SauceLogin - 2
+2023-12-11 02:15:46.118 [TestNG-test=validate invalid password for login-1] DEBUG org.example.SauceLogin - Login credentials:
+UserName:standard_user
+Password:wrongPass
+2023-12-11 02:15:46.692 [TestNG-test=validate invalid password for login-1] DEBUG org.example.SauceLogin - no od divs:3
+2023-12-11 02:15:46.726 [TestNG-test=validate invalid password for login-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Username and password do not match any user in this service
+2023-12-11 02:15:50.895 [main] DEBUG org.example.SauceLogin - 7
+2023-12-11 02:15:50.895 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+2023-12-11 02:15:50.895 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+2023-12-11 02:15:50.975 [main] DEBUG org.example.SauceLogin - 2
+2023-12-11 02:15:50.980 [TestNG-test=validate both invalid username and password for login-1] DEBUG org.example.SauceLogin - Login credentials:
+UserName:wrongUser
+Password:wrongPass
+2023-12-11 02:15:51.740 [TestNG-test=validate both invalid username and password for login-1] DEBUG org.example.SauceLogin - no od divs:3
+2023-12-11 02:15:51.777 [TestNG-test=validate both invalid username and password for login-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Username and password do not match any user in this service
+2023-12-11 02:15:55.783 [main] DEBUG org.example.SauceLogin - 7
+2023-12-11 02:15:55.783 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+2023-12-11 02:15:55.783 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+2023-12-11 02:15:55.830 [main] DEBUG org.example.SauceLogin - 2
+2023-12-11 02:15:55.836 [TestNG-test=intentionally failing test-1] DEBUG org.example.SauceLogin - Login credentials:
+UserName:wrongUser
+Password:wrongPass
+2023-12-11 02:15:56.846 [TestNG-test=intentionally failing test-1] DEBUG org.example.SauceLogin - no od divs:3
+2023-12-11 02:15:56.893 [TestNG-test=intentionally failing test-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Username and password do not match any user in this service
+2023-12-11 02:16:01.648 [main] DEBUG org.example.SauceLogin - 7
+2023-12-11 02:16:01.648 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+2023-12-11 02:16:01.648 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+2023-12-11 02:16:01.704 [main] DEBUG org.example.SauceLogin - 2
+2023-12-11 02:16:01.714 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 02:16:01.883 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - current url :https://www.saucedemo.com/
+2023-12-11 02:16:07.265 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Product lists url:https://www.saucedemo.com/inventory.html
+2023-12-11 02:16:07.426 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price:$15.99
+2023-12-11 02:16:07.548 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 02:16:07.587 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price:$15.99
+2023-12-11 02:16:07.689 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 02:16:07.717 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 02:16:10.504 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (1dde0184a86e4661ddff2e3ac0770b9d)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 02:16:10.589 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 02:16:10.590 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 02:16:10.590 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 02:16:10.590 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+2023-12-11 02:18:23.364 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 7
+2023-12-11 02:18:23.606 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 2
+2023-12-11 02:18:23.818 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - url:https://www.saucedemo.com/inventory.html
+2023-12-11 02:18:24.016 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 02:18:24.128 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+2023-12-11 02:18:24.216 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - no of items in cart:2
+2023-12-11 02:18:25.853 [main] DEBUG org.example.SauceLogin - 7
+2023-12-11 02:18:25.854 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+2023-12-11 02:18:25.854 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+2023-12-11 02:18:25.895 [main] DEBUG org.example.SauceLogin - 2
+2023-12-11 02:18:33.187 [TestNG-test=validate login using all usernames and password-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Sorry, this user has been locked out.
+2023-12-11 02:18:52.982 [main] DEBUG org.example.SauceLogin - 7
+2023-12-11 02:18:52.983 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+2023-12-11 02:18:52.983 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+2023-12-11 02:18:53.022 [main] DEBUG org.example.SauceLogin - 2
+2023-12-11 02:18:53.028 [TestNG-test=validate invalid username for login-1] DEBUG org.example.SauceLogin - Login credentials:
+UserName:userInvalid
+Password:secret_sauce
+2023-12-11 02:18:53.582 [TestNG-test=validate invalid username for login-1] DEBUG org.example.SauceLogin - no od divs:3
+2023-12-11 02:18:53.608 [TestNG-test=validate invalid username for login-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Username and password do not match any user in this service
+2023-12-11 02:18:57.503 [main] DEBUG org.example.SauceLogin - 7
+2023-12-11 02:18:57.503 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+2023-12-11 02:18:57.504 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+2023-12-11 02:18:57.543 [main] DEBUG org.example.SauceLogin - 2
+2023-12-11 02:18:57.549 [TestNG-test=validate invalid password for login-1] DEBUG org.example.SauceLogin - Login credentials:
+UserName:standard_user
+Password:wrongPass
+2023-12-11 02:18:58.047 [TestNG-test=validate invalid password for login-1] DEBUG org.example.SauceLogin - no od divs:3
+2023-12-11 02:18:58.074 [TestNG-test=validate invalid password for login-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Username and password do not match any user in this service
+2023-12-11 02:19:01.996 [main] DEBUG org.example.SauceLogin - 7
+2023-12-11 02:19:01.996 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+2023-12-11 02:19:01.996 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+2023-12-11 02:19:02.028 [main] DEBUG org.example.SauceLogin - 2
+2023-12-11 02:19:02.033 [TestNG-test=validate both invalid username and password for login-1] DEBUG org.example.SauceLogin - Login credentials:
+UserName:wrongUser
+Password:wrongPass
+2023-12-11 02:19:02.565 [TestNG-test=validate both invalid username and password for login-1] DEBUG org.example.SauceLogin - no od divs:3
+2023-12-11 02:19:02.594 [TestNG-test=validate both invalid username and password for login-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Username and password do not match any user in this service
+2023-12-11 02:19:06.708 [main] DEBUG org.example.SauceLogin - 7
+2023-12-11 02:19:06.709 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+2023-12-11 02:19:06.709 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+2023-12-11 02:19:06.749 [main] DEBUG org.example.SauceLogin - 2
+2023-12-11 02:19:06.754 [TestNG-test=intentionally failing test-1] DEBUG org.example.SauceLogin - Login credentials:
+UserName:wrongUser
+Password:wrongPass
+2023-12-11 02:19:07.247 [TestNG-test=intentionally failing test-1] DEBUG org.example.SauceLogin - no od divs:3
+2023-12-11 02:19:07.272 [TestNG-test=intentionally failing test-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Username and password do not match any user in this service
+2023-12-11 02:19:12.329 [main] DEBUG org.example.SauceLogin - 7
+2023-12-11 02:19:12.330 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+2023-12-11 02:19:12.330 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+2023-12-11 02:19:12.367 [main] DEBUG org.example.SauceLogin - 2
+2023-12-11 02:19:12.372 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+2023-12-11 02:19:12.575 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - current url :https://www.saucedemo.com/
+2023-12-11 02:19:17.954 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Product lists url:https://www.saucedemo.com/inventory.html
+2023-12-11 02:19:18.123 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price:$15.99
+2023-12-11 02:19:18.242 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+2023-12-11 02:19:18.286 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price:$15.99
+2023-12-11 02:19:18.384 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+2023-12-11 02:19:18.412 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+2023-12-11 02:19:21.125 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (8c1447f51eb75aa1573bc9c89ed8fb99)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+2023-12-11 02:19:21.217 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+2023-12-11 02:19:21.217 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+2023-12-11 02:19:21.218 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+2023-12-11 02:19:21.218 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54

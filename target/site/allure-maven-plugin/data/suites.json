@@ -1,0 +1,156 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "All Test Suite",
+    "children" : [ {
+      "name" : "overall happy path flow",
+      "children" : [ {
+        "name" : "org.example.SauceHome",
+        "children" : [ {
+          "name" : "happyPathTest",
+          "uid" : "ea3ecaa0a72f3c0a",
+          "parentUid" : "fdef8693cc69a1c9d6a1f90ecea18f26",
+          "status" : "passed",
+          "time" : {
+            "start" : 1702289903200,
+            "stop" : 1702289904850,
+            "duration" : 1650
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "happyPath" ]
+        } ],
+        "uid" : "fdef8693cc69a1c9d6a1f90ecea18f26"
+      } ],
+      "uid" : "38efa03e9293b301cefe4221251245a5"
+    }, {
+      "name" : "validate login using all usernames and password",
+      "children" : [ {
+        "name" : "org.example.SauceLogin",
+        "children" : [ {
+          "name" : "loginTest",
+          "uid" : "597adb8050ce89a4",
+          "parentUid" : "e7bfe94a5a04d2cbec2bccd7438c7397",
+          "status" : "passed",
+          "time" : {
+            "start" : 1702289905899,
+            "stop" : 1702289932027,
+            "duration" : 26128
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e7bfe94a5a04d2cbec2bccd7438c7397"
+      } ],
+      "uid" : "80a6b23816b495c97ae77a071bb3d640"
+    }, {
+      "name" : "validate invalid username for login",
+      "children" : [ {
+        "name" : "org.example.SauceLogin",
+        "children" : [ {
+          "name" : "negativeLoginTest",
+          "uid" : "a25dc2f8dd391a0d",
+          "parentUid" : "0169a556c688464d539dbedce1531342",
+          "status" : "passed",
+          "time" : {
+            "start" : 1702289933028,
+            "stop" : 1702289936614,
+            "duration" : 3586
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Epic sadface: Username and password do not match any user in this service", "secret_sauce", "userInvalid" ]
+        } ],
+        "uid" : "0169a556c688464d539dbedce1531342"
+      } ],
+      "uid" : "44111f0d915f8e6c499963d6da1dca5d"
+    }, {
+      "name" : "validate invalid password for login",
+      "children" : [ {
+        "name" : "org.example.SauceLogin",
+        "children" : [ {
+          "name" : "negativeLoginTest",
+          "uid" : "d6a287b1b9538338",
+          "parentUid" : "cae9f595ffceb8a23fd1d3d76630e2aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1702289937549,
+            "stop" : 1702289941079,
+            "duration" : 3530
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Epic sadface: Username and password do not match any user in this service", "wrongPass", "standard_user" ]
+        } ],
+        "uid" : "cae9f595ffceb8a23fd1d3d76630e2aa"
+      } ],
+      "uid" : "63965b767b79a7f2e42151a8c6f141f0"
+    }, {
+      "name" : "validate both invalid username and password for login",
+      "children" : [ {
+        "name" : "org.example.SauceLogin",
+        "children" : [ {
+          "name" : "negativeLoginTest",
+          "uid" : "48c63d9dec7a4542",
+          "parentUid" : "706b62afbfaff701f77623df48445b3f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1702289942033,
+            "stop" : 1702289945598,
+            "duration" : 3565
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Epic sadface: Username and password do not match any user in this service", "wrongPass", "wrongUser" ]
+        } ],
+        "uid" : "706b62afbfaff701f77623df48445b3f"
+      } ],
+      "uid" : "52738fe3c89632388dca08f5db815378"
+    }, {
+      "name" : "intentionally failing test",
+      "children" : [ {
+        "name" : "org.example.SauceLogin",
+        "children" : [ {
+          "name" : "failLoginTest",
+          "uid" : "e329ff4e5a3c7204",
+          "parentUid" : "2be77f2a1cba27a2501580a111bfcd8d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1702289946754,
+            "stop" : 1702289951022,
+            "duration" : 4268
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Epic sadface: Username and password do not match any user in this service", "wrongPass", "wrongUser" ]
+        } ],
+        "uid" : "2be77f2a1cba27a2501580a111bfcd8d"
+      } ],
+      "uid" : "c842a0cd6b47b02c165f1b1c740c5e66"
+    }, {
+      "name" : "sanity test flow of cart",
+      "children" : [ {
+        "name" : "org.example.SauceLogin",
+        "children" : [ {
+          "name" : "cartSanityTest",
+          "uid" : "22a4970440b6820a",
+          "parentUid" : "6b428c6718259b1bc59b9625bc6a399d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1702289952371,
+            "stop" : 1702289961326,
+            "duration" : 8955
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6b428c6718259b1bc59b9625bc6a399d"
+      } ],
+      "uid" : "db374860592016beaec2c5f66d8215ed"
+    } ],
+    "uid" : "7d0421919ebcae780c955830177c9415"
+  } ],
+  "name" : "suites"
+}

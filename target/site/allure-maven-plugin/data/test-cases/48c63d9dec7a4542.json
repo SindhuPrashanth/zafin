@@ -1,0 +1,124 @@
+{
+  "uid" : "48c63d9dec7a4542",
+  "name" : "negativeLoginTest",
+  "fullName" : "org.example.SauceLogin.negativeLoginTest",
+  "historyId" : "800eb713e13aa372fe7575db0e56de5",
+  "time" : {
+    "start" : 1702289942033,
+    "stop" : 1702289945598,
+    "duration" : 3565
+  },
+  "description" : "Test negative login scenarios, by fetching invalid creds from xml",
+  "descriptionHtml" : "<p>Test negative login scenarios, by fetching invalid creds from xml</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1702289941253,
+      "stop" : 1702289942029,
+      "duration" : 776
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1702289945600,
+      "stop" : 1702289945758,
+      "duration" : 158
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1702289961489,
+      "stop" : 1702289961648,
+      "duration" : 159
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.example.SauceLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.SauceLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "negativeLoginTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "validate both invalid username and password for login"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.example.SauceLogin"
+  }, {
+    "name" : "host",
+    "value" : "Prashanths-MBP.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "17110@Prashanths-MBP.attlocal.net.TestNG-test=validate both invalid username and password for login-1(156)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "loginStatus",
+    "value" : "Epic sadface: Username and password do not match any user in this service"
+  }, {
+    "name" : "password",
+    "value" : "wrongPass"
+  }, {
+    "name" : "username",
+    "value" : "wrongUser"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48c63d9dec7a4542.json",
+  "parameterValues" : [ "Epic sadface: Username and password do not match any user in this service", "wrongPass", "wrongUser" ]
+}

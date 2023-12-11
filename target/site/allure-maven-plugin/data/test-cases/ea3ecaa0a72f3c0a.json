@@ -1,0 +1,102 @@
+{
+  "uid" : "ea3ecaa0a72f3c0a",
+  "name" : "happyPathTest",
+  "fullName" : "org.example.SauceHome.happyPathTest",
+  "historyId" : "a3afa1167e712d7e674c669bdca989e7",
+  "time" : {
+    "start" : 1702289903200,
+    "stop" : 1702289904850,
+    "duration" : 1650
+  },
+  "description" : "Test end-2-end happy path flow",
+  "descriptionHtml" : "<p>Test end-2-end happy path flow</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1702289902353,
+      "stop" : 1702289903054,
+      "duration" : 701
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1702289961489,
+      "stop" : 1702289961648,
+      "duration" : 159
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.example.SauceHome"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.SauceHome"
+  }, {
+    "name" : "testMethod",
+    "value" : "happyPathTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "overall happy path flow"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.example.SauceHome"
+  }, {
+    "name" : "host",
+    "value" : "Prashanths-MBP.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "17110@Prashanths-MBP.attlocal.net.TestNG-test=overall happy path flow-1(144)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Credentials",
+    "value" : "happyPath"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea3ecaa0a72f3c0a.json",
+  "parameterValues" : [ "happyPath" ]
+}

@@ -1,0 +1,240 @@
+/Library/Java/JavaVirtualMachines/jdk-17.0.4.jdk/Contents/Home/bin/java -Dmaven.multiModuleProjectDirectory=/Users/prashanthayyavu/repo/zafin -Dmaven.home=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3 -Dclassworlds.conf=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf -Dmaven.ext.class.path=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=61585:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean test install allure:report
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -------------------------< org.example:zafin >--------------------------
+[INFO] Building zafin 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ zafin ---
+[INFO] Deleting /Users/prashanthayyavu/repo/zafin/target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ zafin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/prashanthayyavu/repo/zafin/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ zafin ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 3 source files with javac [debug target 17] to target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ zafin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ zafin ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 2 source files with javac [debug target 17] to target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ zafin ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 54975
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 11, 2023 2:18:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Dec 11, 2023 2:18:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: a no-op implementation
+Dec 11, 2023 2:18:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 120.
+Dec 11, 2023 2:18:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 56076
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 11, 2023 2:18:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Dec 11, 2023 2:18:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: a no-op implementation
+Dec 11, 2023 2:18:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 120.
+Dec 11, 2023 2:18:13 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 50953
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 11, 2023 2:18:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Dec 11, 2023 2:18:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: a no-op implementation
+Dec 11, 2023 2:18:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 120.
+Dec 11, 2023 2:18:15 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 58737
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 11, 2023 2:18:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Dec 11, 2023 2:18:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: a no-op implementation
+Dec 11, 2023 2:18:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 120.
+Dec 11, 2023 2:18:16 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 59945
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 11, 2023 2:18:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Dec 11, 2023 2:18:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: a no-op implementation
+Dec 11, 2023 2:18:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 120.
+Dec 11, 2023 2:18:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 60597
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 11, 2023 2:18:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Dec 11, 2023 2:18:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: a no-op implementation
+Dec 11, 2023 2:18:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 120.
+Dec 11, 2023 2:18:20 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 60497
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 11, 2023 2:18:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Dec 11, 2023 2:18:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: a no-op implementation
+Dec 11, 2023 2:18:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 120.
+Dec 11, 2023 2:18:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+02:18:23.364 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 7
+02:18:23.606 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - 2
+02:18:23.818 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - url:https://www.saucedemo.com/inventory.html
+02:18:24.016 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+02:18:24.128 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - Price:$15.99
+02:18:24.216 [TestNG-test=overall happy path flow-1] DEBUG org.example.SauceHome - no of items in cart:2
+PASSED: org.example.SauceHome.happyPathTest("happyPath")
+
+===============================================
+    overall happy path flow
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+02:18:25.853 [main] DEBUG org.example.SauceLogin - 7
+02:18:25.854 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+02:18:25.854 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+02:18:25.895 [main] DEBUG org.example.SauceLogin - 2
+02:18:33.187 [TestNG-test=validate login using all usernames and password-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Sorry, this user has been locked out.
+02:18:52.982 [main] DEBUG org.example.SauceLogin - 7
+02:18:52.983 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+02:18:52.983 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+02:18:53.022 [main] DEBUG org.example.SauceLogin - 2
+02:18:53.028 [TestNG-test=validate invalid username for login-1] DEBUG org.example.SauceLogin - Login credentials:
+UserName:userInvalid
+Password:secret_sauce
+02:18:53.582 [TestNG-test=validate invalid username for login-1] DEBUG org.example.SauceLogin - no od divs:3
+02:18:53.608 [TestNG-test=validate invalid username for login-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Username and password do not match any user in this service
+02:18:57.503 [main] DEBUG org.example.SauceLogin - 7
+02:18:57.503 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+02:18:57.504 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+02:18:57.543 [main] DEBUG org.example.SauceLogin - 2
+02:18:57.549 [TestNG-test=validate invalid password for login-1] DEBUG org.example.SauceLogin - Login credentials:
+UserName:standard_user
+Password:wrongPass
+02:18:58.047 [TestNG-test=validate invalid password for login-1] DEBUG org.example.SauceLogin - no od divs:3
+02:18:58.074 [TestNG-test=validate invalid password for login-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Username and password do not match any user in this service
+02:19:01.996 [main] DEBUG org.example.SauceLogin - 7
+02:19:01.996 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+02:19:01.996 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+02:19:02.028 [main] DEBUG org.example.SauceLogin - 2
+02:19:02.033 [TestNG-test=validate both invalid username and password for login-1] DEBUG org.example.SauceLogin - Login credentials:
+UserName:wrongUser
+Password:wrongPass
+02:19:02.565 [TestNG-test=validate both invalid username and password for login-1] DEBUG org.example.SauceLogin - no od divs:3
+02:19:02.594 [TestNG-test=validate both invalid username and password for login-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Username and password do not match any user in this service
+02:19:06.708 [main] DEBUG org.example.SauceLogin - 7
+02:19:06.709 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+02:19:06.709 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+02:19:06.749 [main] DEBUG org.example.SauceLogin - 2
+02:19:06.754 [TestNG-test=intentionally failing test-1] DEBUG org.example.SauceLogin - Login credentials:
+UserName:wrongUser
+Password:wrongPass
+02:19:07.247 [TestNG-test=intentionally failing test-1] DEBUG org.example.SauceLogin - no od divs:3
+02:19:07.272 [TestNG-test=intentionally failing test-1] DEBUG org.example.SauceLogin - Actual err string:Epic sadface: Username and password do not match any user in this service
+02:19:12.329 [main] DEBUG org.example.SauceLogin - 7
+02:19:12.330 [main] DEBUG org.example.SauceLogin - userNames list:[Accepted usernames are:, standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user]
+02:19:12.330 [main] DEBUG org.example.SauceLogin - lodin user list size:7
+02:19:12.367 [main] DEBUG org.example.SauceLogin - 2
+02:19:12.372 [TestNG-test=sanity test flow of cart-1] INFO  org.example.SauceLogin - cartSanityTest
+02:19:12.575 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - current url :https://www.saucedemo.com/
+02:19:17.954 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Product lists url:https://www.saucedemo.com/inventory.html
+02:19:18.123 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price:$15.99
+02:19:18.242 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Sauce Labs Bolt T-Shirt $15.99
+02:19:18.286 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price:$15.99
+02:19:18.384 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Test.allTheThings() T-Shirt (Red) $15.99
+02:19:18.412 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - no of items in cart:2
+02:19:21.125 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Payment Information : [[[[ChromeDriver: chrome on MAC (8c1447f51eb75aa1573bc9c89ed8fb99)] -> id: checkout_summary_container]] -> class name: summary_value_label]
+02:19:21.217 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - Price information
+02:19:21.217 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - sub total : Item total: $31.98
+02:19:21.218 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - tax : Tax: $2.56
+02:19:21.218 [TestNG-test=sanity test flow of cart-1] DEBUG org.example.SauceLogin - total : Total: $34.54
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 77.047 s - in TestSuite
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ zafin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/prashanthayyavu/repo/zafin/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ zafin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ zafin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ zafin ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 2 source files with javac [debug target 17] to target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ zafin ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ zafin ---
+[INFO] Building jar: /Users/prashanthayyavu/repo/zafin/target/zafin-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ zafin ---
+[INFO] Installing /Users/prashanthayyavu/repo/zafin/target/zafin-1.0-SNAPSHOT.jar to /Users/prashanthayyavu/.m2/repository/org/example/zafin/1.0-SNAPSHOT/zafin-1.0-SNAPSHOT.jar
+[INFO] Installing /Users/prashanthayyavu/repo/zafin/pom.xml to /Users/prashanthayyavu/.m2/repository/org/example/zafin/1.0-SNAPSHOT/zafin-1.0-SNAPSHOT.pom
+[INFO]
+[INFO] --- allure-maven:2.10.0:report (default-cli) @ zafin ---
+[INFO] Allure installation directory /Users/prashanthayyavu/repo/zafin/.allure
+[INFO] Try to finding out allure 2.14.0
+[INFO] Generate Allure report (report) with version 2.14.0
+[INFO] Generate Allure report to /Users/prashanthayyavu/repo/zafin/target/site/allure-maven-plugin
+[INFO] Found results directory /Users/prashanthayyavu/repo/zafin/target/allure-results
+[INFO] Can't find information about categories.
+[INFO] Generate report to /Users/prashanthayyavu/repo/zafin/target/site/allure-maven-plugin
+Report successfully generated to /Users/prashanthayyavu/repo/zafin/target/site/allure-maven-plugin
+[INFO] Report generated successfully.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:28 min
+[INFO] Finished at: 2023-12-11T02:19:28-08:00
+[INFO] ------------------------------------------------------------------------
+
+Process finished with exit code 0

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-11T02:18:22 PST" name="All Test Suite" finished-at="2023-12-11T02:19:21 PST" duration-ms="59186">
+    <groups>
+    </groups>
+    <test started-at="2023-12-11T02:18:22 PST" name="overall happy path flow" finished-at="2023-12-11T02:18:25 PST" duration-ms="2722">
+      <class name="org.example.SauceHome">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:org.example.SauceHome@283d3628]" started-at="2023-12-11T02:18:22 PST" name="beforeTest" finished-at="2023-12-11T02:18:23 PST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="happyPathTest(java.lang.String)[pri:0, instance:org.example.SauceHome@283d3628]" started-at="2023-12-11T02:18:23 PST" name="happyPathTest" finished-at="2023-12-11T02:18:24 PST" duration-ms="1716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[happyPath]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- happyPathTest -->
+      </class> <!-- org.example.SauceHome -->
+    </test> <!-- overall happy path flow -->
+    <test started-at="2023-12-11T02:18:25 PST" name="validate login using all usernames and password" finished-at="2023-12-11T02:18:52 PST" duration-ms="27128">
+      <class name="org.example.SauceLogin">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:org.example.SauceLogin@18b40fe6]" started-at="2023-12-11T02:18:25 PST" name="beforeTest" finished-at="2023-12-11T02:18:25 PST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="loginTest()[pri:0, instance:org.example.SauceLogin@18b40fe6]" started-at="2023-12-11T02:18:25 PST" name="loginTest" finished-at="2023-12-11T02:18:52 PST" duration-ms="26130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:org.example.SauceLogin@18b40fe6]" started-at="2023-12-11T02:18:52 PST" name="afterTest" finished-at="2023-12-11T02:18:52 PST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.example.SauceLogin -->
+    </test> <!-- validate login using all usernames and password -->
+    <test started-at="2023-12-11T02:18:52 PST" name="validate invalid username for login" finished-at="2023-12-11T02:18:56 PST" duration-ms="4527">
+      <class name="org.example.SauceLogin">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:org.example.SauceLogin@660296d5]" started-at="2023-12-11T02:18:52 PST" name="beforeTest" finished-at="2023-12-11T02:18:53 PST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.example.SauceLogin@660296d5]" started-at="2023-12-11T02:18:53 PST" name="negativeLoginTest" finished-at="2023-12-11T02:18:56 PST" duration-ms="3589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userInvalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:org.example.SauceLogin@660296d5]" started-at="2023-12-11T02:18:56 PST" name="afterTest" finished-at="2023-12-11T02:18:56 PST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.example.SauceLogin -->
+    </test> <!-- validate invalid username for login -->
+    <test started-at="2023-12-11T02:18:56 PST" name="validate invalid password for login" finished-at="2023-12-11T02:19:01 PST" duration-ms="4514">
+      <class name="org.example.SauceLogin">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:org.example.SauceLogin@6ec3d8e4]" started-at="2023-12-11T02:18:56 PST" name="beforeTest" finished-at="2023-12-11T02:18:57 PST" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.example.SauceLogin@6ec3d8e4]" started-at="2023-12-11T02:18:57 PST" name="negativeLoginTest" finished-at="2023-12-11T02:19:01 PST" duration-ms="3533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongPass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:org.example.SauceLogin@6ec3d8e4]" started-at="2023-12-11T02:19:01 PST" name="afterTest" finished-at="2023-12-11T02:19:01 PST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.example.SauceLogin -->
+    </test> <!-- validate invalid password for login -->
+    <test started-at="2023-12-11T02:19:01 PST" name="validate both invalid username and password for login" finished-at="2023-12-11T02:19:05 PST" duration-ms="4506">
+      <class name="org.example.SauceLogin">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:org.example.SauceLogin@f76872f]" started-at="2023-12-11T02:19:01 PST" name="beforeTest" finished-at="2023-12-11T02:19:02 PST" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.example.SauceLogin@f76872f]" started-at="2023-12-11T02:19:02 PST" name="negativeLoginTest" finished-at="2023-12-11T02:19:05 PST" duration-ms="3568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongPass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:org.example.SauceLogin@f76872f]" started-at="2023-12-11T02:19:05 PST" name="afterTest" finished-at="2023-12-11T02:19:05 PST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.example.SauceLogin -->
+    </test> <!-- validate both invalid username and password for login -->
+    <test started-at="2023-12-11T02:19:05 PST" name="intentionally failing test" finished-at="2023-12-11T02:19:11 PST" duration-ms="5475">
+      <class name="org.example.SauceLogin">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:org.example.SauceLogin@69499c6f]" started-at="2023-12-11T02:19:05 PST" name="beforeTest" finished-at="2023-12-11T02:19:06 PST" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="failLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.example.SauceLogin@69499c6f]" started-at="2023-12-11T02:19:06 PST" name="failLoginTest" finished-at="2023-12-11T02:19:11 PST" duration-ms="4270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongPass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failLoginTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:org.example.SauceLogin@69499c6f]" started-at="2023-12-11T02:19:11 PST" name="afterTest" finished-at="2023-12-11T02:19:11 PST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.example.SauceLogin -->
+    </test> <!-- intentionally failing test -->
+    <test started-at="2023-12-11T02:19:11 PST" name="sanity test flow of cart" finished-at="2023-12-11T02:19:21 PST" duration-ms="10236">
+      <class name="org.example.SauceLogin">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:org.example.SauceLogin@70d687b8]" started-at="2023-12-11T02:19:11 PST" name="beforeTest" finished-at="2023-12-11T02:19:12 PST" duration-ms="1119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="cartSanityTest()[pri:0, instance:org.example.SauceLogin@70d687b8]" started-at="2023-12-11T02:19:12 PST" name="cartSanityTest" finished-at="2023-12-11T02:19:21 PST" duration-ms="8957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartSanityTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:org.example.SauceLogin@70d687b8]" started-at="2023-12-11T02:19:21 PST" name="afterTest" finished-at="2023-12-11T02:19:21 PST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.example.SauceLogin -->
+      <class name="org.example.SauceHome">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:org.example.SauceHome@283d3628]" started-at="2023-12-11T02:19:21 PST" name="afterSuite" finished-at="2023-12-11T02:19:21 PST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.example.SauceHome -->
+    </test> <!-- sanity test flow of cart -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

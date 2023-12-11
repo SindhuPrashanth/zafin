@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite" thread-count="1" parallel="methods">
-    <test verbose="2" preserve-order="true" name="Happy path Flow">
-        <parameter name = "Credentials" value="happyPath"/>
+
+    <test verbose="2" preserve-order="true" name="overall happy path flow">
+        <parameter name="Credentials" value="happyPath"/>
         <classes>
             <class name="org.example.SauceHome">
             </class>
         </classes>
     </test>
-    <test name="login Validations">
+
+    <test name="validate login using all usernames and password">
         <classes>
             <class name="org.example.SauceLogin">
                 <methods>
-                    <include name="loginSauce"/>
+                    <include name="loginTest"/>
                 </methods>
             </class>
         </classes>
     </test>
-    <test name="Invalid userName">
+
+    <test name="validate invalid username for login">
         <parameter name="username" value="userInvalid">Invalid username</parameter>
         <parameter name="password" value="secret_sauce"></parameter>
-        <parameter name="loginStatus" value="Epic sadface: Username and password do not match any user in this service"></parameter>
+        <parameter name="loginStatus"
+                   value="Epic sadface: Username and password do not match any user in this service"></parameter>
         <classes>
             <class name="org.example.SauceLogin">
                 <methods>
@@ -29,10 +33,12 @@
             </class>
         </classes>
     </test>
-    <test name="Invalid Password">
+
+    <test name="validate invalid password for login">
         <parameter name="username" value="standard_user">Invalid username</parameter>
         <parameter name="password" value="wrongPass"></parameter>
-        <parameter name="loginStatus" value="Epic sadface: Username and password do not match any user in this service"></parameter>
+        <parameter name="loginStatus"
+                   value="Epic sadface: Username and password do not match any user in this service"></parameter>
         <classes>
             <class name="org.example.SauceLogin">
                 <methods>
@@ -41,14 +47,40 @@
             </class>
         </classes>
     </test>
-    <test name="Invalid UserNmae and Password">
+
+    <test name="validate both invalid username and password for login">
         <parameter name="username" value="wrongUser">Invalid username</parameter>
         <parameter name="password" value="wrongPass"></parameter>
-        <parameter name="loginStatus" value="Epic sadface: Username and password do not match any user in this service"></parameter>
+        <parameter name="loginStatus"
+                   value="Epic sadface: Username and password do not match any user in this service"></parameter>
         <classes>
             <class name="org.example.SauceLogin">
                 <methods>
                     <include name="negativeLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="intentionally failing test">
+        <parameter name="username" value="wrongUser">Invalid username</parameter>
+        <parameter name="password" value="wrongPass"></parameter>
+        <parameter name="loginStatus"
+                   value="Epic sadface: Username and password do not match any user in this service"></parameter>
+        <classes>
+            <class name="org.example.SauceLogin">
+                <methods>
+                    <include name="failLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="sanity test flow of cart">
+        <classes>
+            <class name="org.example.SauceLogin">
+                <methods>
+                    <include name="cartSanityTest"/>
                 </methods>
             </class>
         </classes>
